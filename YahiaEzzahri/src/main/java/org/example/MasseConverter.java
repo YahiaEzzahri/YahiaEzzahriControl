@@ -15,8 +15,6 @@ public class MasseConverter implements Convertisseur {
         } else if (direction == 2) {
             double lb = valeur / 0.453592;
             System.out.println(valeur + " kg = " + lb + " lb");
-        } else {
-            System.out.println("Choix invalide.");
         }
     }
 }
