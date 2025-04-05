@@ -16,7 +16,7 @@ public class DistanceConverter implements Convertisseur {
             double miles = valeur / 1.60934;
             System.out.println(valeur + " km = " + miles + " miles");
         } else {
-            System.out.println("Choix invalide.");
+            System.out.println("Yahia ezzahri.");
         }
     }
 }

@@ -19,8 +19,9 @@ public class Main {
 
             switch (choix) {
                 case 1 -> new TemperatureConverter().convert(scanner);
-                case 2 -> new DistanceConverter().convert(scanner);
                 case 3 -> new MonnaieConverter().convert(scanner);
+                case 2 -> new DistanceConverter().convert(scanner);
+
                 case 4 -> new MasseConverter().convert(scanner);
                 case 5 -> {
                     continuer = false;
